@@ -7,7 +7,7 @@ maintainers:
   name: Michael Goodness
 - email: gianrubio@gmail.com
   name: Giancarlo Rubio
-name: prometheus-operator
+name: prometheus-operator-nvidia
 sources:
 - https://github.com/coreos/prometheus-operator
 version: 0.0.15
