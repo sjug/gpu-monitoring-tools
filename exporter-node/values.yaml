@@ -13,8 +13,8 @@ nodeExporter:
 
   service:
     type: ClusterIP
-    externalPort: 9100
-    containerPort: 9100
+    externalPort: 9099
+    containerPort: 9099
 
   resources:
     limits:

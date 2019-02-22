@@ -16,6 +16,8 @@ spec:
         component: node-exporter
         release: {{ .Release.Name }}
     spec:
+      serviceAccountName: node-exporter
+      automountServiceAccountToken: true
       containers:
         - name: node-exporter
           image: "{{ .Values.nodeExporter.image.repository }}:{{ .Values.nodeExporter.image.tag }}"
